@@ -99,4 +99,10 @@ class Note {
 }
 ```
 
+
+
+`youtube: https://www.youtube.com/shorts/ylsKWghaiQg`
+
+
+
 <https://github.com/adnathanail/hilbert-curve/tree/master/hilbert_curve_2>
