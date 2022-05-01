@@ -35,6 +35,7 @@ class GameObject {
 ```
 
 The `Snake` class builds on this, adding a `length` attribute and a `draw()` method
+
 ```java
 class Snake extends GameObject { 
     int length;
@@ -97,3 +98,5 @@ class Note {
     }
 }
 ```
+
+<https://github.com/adnathanail/hilbert-curve/tree/master/hilbert_curve_2>
