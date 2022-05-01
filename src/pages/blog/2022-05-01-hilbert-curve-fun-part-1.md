@@ -34,7 +34,7 @@ int PADDING = 2;
 
 The main algorithm looks like this
 
-```java
+```processing
 int[] hindex2xy(int hindex, int N) {
   int[] tmp = POSITIONS[last2bits(hindex)];
 
