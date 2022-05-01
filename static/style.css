@@ -1,0 +1,38 @@
+/* https://nikkipeel.netlify.app/syntax-highlighting-with-prismjs */
+code {
+    background-color: #4f4543;
+    color: #f8f5f2;
+    padding: 8px;
+    border-radius: 3px;
+    word-wrap: break-word; 
+    letter-spacing: 1.15px;
+    font-size: 14px;
+  } 
+  
+  pre code{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    line-height: 1.5;
+    max-width: 70vw;
+    min-width: 300px;
+  } 
+  
+  pre code::-webkit-scrollbar {
+    height: 1.25em;
+  } 
+  
+  pre code::-webkit-scrollbar-track {
+  border-radius: 1.5px;
+  background-color: #8f2d56;
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.3);
+  }
+  
+  pre code::-webkit-scrollbar-thumb  {
+  height: 48px;
+  border-radius: 10px;
+  background-color: #FFB847;
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.3);
+  }
