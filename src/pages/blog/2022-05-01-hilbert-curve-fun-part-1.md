@@ -79,3 +79,7 @@ int[] hindex2xy(int hindex, int N) {
 And the rest of the code is just Processing stuff, to take my list of points and draw them out into this beautiful pattern
 
 ![My generated Hilbert curve](/img/screenshot-2022-05-01-at-17.22.49.png)
+
+Check out the source code on my GitHub
+
+<https://github.com/adnathanail/hilbert-curve>
