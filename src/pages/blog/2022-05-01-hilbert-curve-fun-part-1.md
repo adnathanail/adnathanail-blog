@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Hilbert curve fun: Part 1"
+title: "Hilbert curve: Part 1"
 date: 2022-04-29T20:20:56.097Z
 description: Creating a Hilbert curve with Processing
 featuredpost: true
