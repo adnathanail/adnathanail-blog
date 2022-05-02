@@ -130,6 +130,24 @@ Now that everything is nicely split up, the main code file is much neater, and e
 
 All that was left to do was encode a song in my `Note` format, for which I chose [this copy of In the Hall of the Mountain King](https://makingmusicfun.net/pdf/sheet_music/in-the-hall-of-the-mountain-king.pdf)
 
+```java
+Note[] SONG = {
+    new Note("D", 3, 2), new Note("E", 3, 2), new Note("F", 3, 2), new Note("G", 3, 2),
+    new Note("A", 3, 2), new Note("F", 3, 2), new Note("A", 3, 4),
+
+    new Note("G#", 3, 2), new Note("E", 3, 2), new Note("G#", 3, 4),
+    new Note("G", 3, 2), new Note("D#", 3, 2), new Note("G", 3, 4),
+
+    new Note("D", 3, 2), new Note("E", 3, 2), new Note("F", 3, 2), new Note("G", 3, 2),
+    new Note("A", 3, 2), new Note("F", 3, 2), new Note("A", 3, 2), new Note("D", 4, 2),
+
+    new Note("C", 4, 2), new Note("A", 3, 2), new Note("F", 3, 2), new Note("A", 3, 2),
+    new Note("C", 4, 8),
+};
+```
+
 And now, what you've all been waiting for, a demo:
 
 `youtube: https://www.youtube.com/shorts/ylsKWghaiQg`
+
+As you can hear, it just keeps playing the last note forever. It also doesn't look incredible, and it is very laborious to convert music to this format. All this will be improved in part 3
