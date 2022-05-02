@@ -99,7 +99,7 @@ class Note {
 }
 ```
 
-The `last2bits` and `hindex2xy` functions remain relatively unchanged, but refactored into the new \`utils.pde\` file. There is also a helper for getting the cached results:
+The `last2bits` and `hindex2xy` functions remain relatively unchanged, but refactored into the new `utils.pde` file. There is also a helper for getting the cached results:
 
 ```java
 int cached_h2x(int hindex, int coord) {
