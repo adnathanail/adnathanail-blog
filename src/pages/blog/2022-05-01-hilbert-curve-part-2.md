@@ -99,10 +99,37 @@ class Note {
 }
 ```
 
+The `last2bits` and `hindex2xy` functions remain relatively unchanged, but refactored into the new \`utils.pde\` file. There is also a helper for getting the cached results:
 
+```java
+int cached_h2x(int hindex, int coord) {
+    return (points[hindex][coord] + PADDING) * SCALE_FACTOR;
+}
+```
 
-`youtube: https://www.youtube.com/shorts/ylsKWghaiQg`
+Then there is a function to convert a note name and an octave to a frequency that the Processing `sound` library can play
 
+```java
+float getFrequency(String note, int octave) {
+    float keyNumber = NOTES.indexOf(note);
 
+    if (keyNumber < 3) {
+        keyNumber = keyNumber + 12 + ((octave - 1) * 12) + 1; 
+    } else {
+        keyNumber = keyNumber + ((octave - 1) * 12) + 1; 
+    }
+
+    // Return frequency of note
+    return 440 * pow(2, (keyNumber - 49) / 12);
+};
+```
+
+Now that everything is nicely split up, the main code file is much neater, and easier to work with. You can find the full code listing here
 
 <https://github.com/adnathanail/hilbert-curve/tree/master/hilbert_curve_2>
+
+All that was left to do was encode a song in my `Note` format, for which I chose [this copy of In the Hall of the Mountain King](https://makingmusicfun.net/pdf/sheet_music/in-the-hall-of-the-mountain-king.pdf)
+
+And now, what you've all been waiting for, a demo:
+
+`youtube: https://www.youtube.com/shorts/ylsKWghaiQg`
