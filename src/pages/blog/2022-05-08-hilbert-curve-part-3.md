@@ -6,7 +6,7 @@ description: In which I tire of manually writing out songs
 featuredpost: true
 featuredimage: /img/screenshot-2022-05-08-at-02.36.51.png
 ---
-> "Lets read MIDI files" I said. "It'll be easy" I said. "This is the standard musical interchange format, and has been for decades, it must be well-defined and simple to parse" I said.
+"Let's read MIDI files" I said. "It'll be easy" I said. "This is the standard musical interchange format, and has been for decades, it must be well-defined and simple to parse" I said.
 
 Firstly, MIDI files are not (as I had assumed) text files, they are binary files, so I am unable to parse them directly. Luckily Java has the `javax.sound.midi` library which can do some of the work for me. Using it wasn't instantly straightforward, but I found [this handy article on the processing forums](https://discourse.processing.org/t/parse-midi-files/14126/2).
 
@@ -29,3 +29,15 @@ The next thing to do was to try actually playing this, which means I need to con
 Ignoring channels for now, I removed the `SONG` array and added a line to the loop in the MIDI demo code which would create `SnakeFood` objects, ready to be played. And here is the finished result!
 
 `youtube: https://youtube.com/shorts/swHsJWYzkls?feature=share`
+
+Hmm, something isn't quite right! From the screenshot I can see there are 2 channels (0 and 1) and I am just playing them both at the same time. Here are the two channels played separately
+
+**Channel 0**
+
+`youtube: https://www.youtube.com/shorts/Wa9UJ38dY3A`
+
+**Channel 1**
+
+`youtube: https://www.youtube.com/shorts/nyTa69RUBgI`
+
+Channel 1 sounds a bit odd/boring but it's only a baseline, I'm sure it'll sound fine in context. Channel 0 is clearly recognizeable, and highlights my next problem: note duration. The proper song (as demonstrated in my last post) should have 6 quavers then a crotchet, however here all notes are being played with the same duration so it just sounds like 7 quavers
