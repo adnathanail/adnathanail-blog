@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Hilbert curve: part 2"
+title: "Hilbert curve: Part 2"
 date: 2022-05-01T16:43:40.247Z
 description: Turning the Hilbert curve into a snake
 featuredpost: true

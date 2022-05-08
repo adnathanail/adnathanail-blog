@@ -41,3 +41,5 @@ Hmm, something isn't quite right! From the screenshot I can see there are 2 chan
 `youtube: https://www.youtube.com/shorts/nyTa69RUBgI`
 
 Channel 1 sounds a bit odd/boring but it's only a baseline, I'm sure it'll sound fine in context. Channel 0 is clearly recognizable and highlights my next problem: note duration. The proper song (as demonstrated in my last post) should have 6 quavers and then a crotchet, however here all notes are being played with the same duration so it just sounds like 7 quavers
+
+I'll figure this out in part 4!
