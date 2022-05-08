@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Hilbert curve: part 3"
+title: "Hilbert curve: Part 3"
 date: 2022-05-08T01:31:39.101Z
 description: In which I tire of manually writing out songs
 featuredpost: true
@@ -21,3 +21,11 @@ This was a decent start as, with minimal effort from me, I had a list of notes t
 > A **track** seems to be a bit of a modern invention on top of the original system of **channels**. A MIDI file/device/instrument can (normally) only have 16 output channels, as a holdover from when data was being sent down physical 16-wite cables. The ability to subdivide things further (e.g. each different drum in a kit having a separate track, but the same channel) can be useful during the editing process.
 >
 > My understanding is that I should be playing all tracks and all channels simultaneously.
+
+The next thing to do was to try actually playing this, which means I need to convert MIDI \`note\` values to frequencies. I found a [handy gist on GitHub](https://gist.github.com/stuartmemo/3766449) which I was ready to convert to Java, but I typed out the function name `midiNoteToFrequency` and GitHub Copilot (which I forgot I had really) did it for me!
+
+![A VS Code window with GitHub Copilot autocompleting my function](/img/img_6506.jpg "How cool is that!")
+
+Ignoring channels for now, I removed the `SONG` array and added a line to the loop in the MIDI demo code which would create `SnakeFood` objects, ready to be played. And here is the finished result!
+
+`youtube: https://youtube.com/shorts/swHsJWYzkls?feature=share`
