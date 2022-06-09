@@ -58,6 +58,8 @@ By 21:30 the same day
 
 For a random drunk idea I'm pretty happy with how it turned out!
 
+[Substi-fruit](https://comfy-custard-c39caa.netlify.app/)
+
 ## Improvements
 
 When I woke up the next day I added an MIT license to the repo, just to protect my very valuable IP
