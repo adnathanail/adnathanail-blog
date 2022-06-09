@@ -6,7 +6,6 @@ description: A stupid drunk idea that I worked on until I was sober
 featuredpost: true
 featuredimage: /img/screenshot-2022-06-09-at-21.10.30.png
 ---
-
 ## Background
 
 I went to see a friend for drinks, and left at 11:30 because he had work the next day, leaving me drunk and very much before my drunk bedtime.
@@ -47,12 +46,15 @@ I rearranged the page a bit to make it more compact and intuitive, added a descr
 
 ## Results
 
+![A screenshot of the graph of fruit connections that people made](/img/screenshot-2022-06-09-at-21.10.30.png)
+
 By 21:30 the same day
-- The story got 150 views
-- 4 people replied to it
-- 5 people liked it
-- 44 unique fruit had been added
-- 92 connections had been added (maybe 5 by me)
+
+* The story got 150 views
+* 4 people replied to it
+* 5 people liked it
+* 44 unique fruit had been added
+* 92 connections had been added (maybe 5 by me)
 
 For a random drunk idea I'm pretty happy with how it turned out!
 
@@ -65,3 +67,5 @@ I also added Google Analytics, but I had missed a few people, I've learned to pu
 I also squished things around more and added a nice background.
 
 I also added a live updating stats block including the most connected fruit, both by number of unique links and total cumulative links, and by both metrics Orange is the most substitutable fruit. The graph is undirected, so it is not completely clear whether people are happy with it in either direction, but I'd imagine so.
+
+![](/img/screenshot-2022-06-09-at-21.43.11.png)
